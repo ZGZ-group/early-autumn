@@ -1,0 +1,20 @@
+
+#eureka单节点配置
+server:
+  port: 8001
+
+spring:
+  application:
+    name: node-one
+
+eureka:
+  server:
+    enable-self-preservation: false
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+  instance:
+    hostname: localhost
+    instance-id: ${eureka.instance.hostname}:${server.port}:${spring.application.name}
