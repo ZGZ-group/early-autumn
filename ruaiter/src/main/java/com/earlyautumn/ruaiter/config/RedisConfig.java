@@ -15,8 +15,8 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 
 import java.util.Arrays;
 
-@Configuration
-@EnableCaching
+//@Configuration
+//@EnableCaching
 public class RedisConfig {
 
 //    @Bean
@@ -29,7 +29,7 @@ public class RedisConfig {
 //        return rcm;
 //    }
 
-    @Bean
+//    @Bean
     public RedisTemplate<String, String> redisTemplate(RedisConnectionFactory factory) {
         StringRedisTemplate template = new StringRedisTemplate(factory);
         Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);

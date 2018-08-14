@@ -1,0 +1,8 @@
+com\earlyautumn\ruaiter\RuaiterApplication.class
+com\earlyautumn\ruaiter\controller\TestController.class
+com\earlyautumn\ruaiter\config\WebmvcConfig.class
+com\earlyautumn\ruaiter\interceptor\RuaiterInterceptor.class
+com\earlyautumn\ruaiter\dao\test\UserMapper.class
+com\earlyautumn\ruaiter\config\RedisConfig.class
+com\earlyautumn\ruaiter\config\DataSourceTestConfig.class
+com\earlyautumn\ruaiter\domain\User.class

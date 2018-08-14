@@ -1,0 +1,27 @@
+server:
+  servlet:
+    context-path: /ruaiter
+  port: 8080
+
+spring:
+  #springmvc
+  mvc:
+    view:
+      prefix:
+      suffix: .html
+  thymeleaf:
+    cache: false
+    enabled: false
+
+#  #redis
+#  redis:
+#    host:
+#    port: 6379
+#    database: 0
+#    timeout: 0ms
+#    jedis:
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        max-wait: -1ms
+#        min-idle: 0
