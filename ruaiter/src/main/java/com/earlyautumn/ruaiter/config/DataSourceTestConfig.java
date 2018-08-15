@@ -3,24 +3,24 @@ package com.earlyautumn.ruaiter.config;
 import com.alibaba.druid.pool.DruidDataSource;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
-import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 
-@Configuration
-@MapperScan(basePackages = {DataSourceTestConfig.BASE_PACKAGE}, sqlSessionFactoryRef = DataSourceTestConfig.SQL_SESSION_FACTORY)
-@EnableTransactionManagement
+/**
+ * 示例数据源test配置文件
+ */
+//@Configuration
+//@MapperScan(basePackages = {DataSourceTestConfig.BASE_PACKAGE}, sqlSessionFactoryRef = DataSourceTestConfig.SQL_SESSION_FACTORY)
+//@EnableTransactionManagement
 public class DataSourceTestConfig {
 
 
@@ -30,7 +30,7 @@ public class DataSourceTestConfig {
     private static final Logger logger = LoggerFactory.getLogger(DataSourceTestConfig.class);
     private static final String DATA_SOURCE_PROPERTY = "dataSourcePropertyTest";
     private static final String MYBATIS_CONFIG = "classpath:mybatis/mybatis-config.xml";
-    private static final String MYBATIS_MAPPERS = "classpath:com/earlyautumn/ruaiter/dao/*.xml";
+    private static final String MYBATIS_MAPPERS = "classpath:com/earlyautumn/ruaiter/dao/test/mappers/*.xml";
     private static final String TX_MANAGER = "txManagerTest";
 
     @Primary
@@ -77,6 +77,6 @@ public class DataSourceTestConfig {
 //        SqlSessionTemplate template = new SqlSessionTemplate(sqlSessionFactory); // 使用上面配置的Factory
 //        return template;
 //    }
-    
+
 }
 

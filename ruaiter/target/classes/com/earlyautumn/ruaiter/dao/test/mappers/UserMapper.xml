@@ -4,6 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.earlyautumn.ruaiter.dao.test.UserMapper">
 
+    <sql id="BASE_TABLE">
+        user
+    </sql>
+
     <sql id="BASE_SQL_COLUMN">
         id,
         username,
@@ -23,7 +27,23 @@
     <select id="getUserById" resultType="com.earlyautumn.ruaiter.domain.User" parameterType="long">
         select
         <include refid="BASE_SQL_COLUMN"/>
-        from user where id = #{id}
+        from
+        <include refid="BASE_TABLE"/>
+        where id = #{id}
     </select>
+
+    <insert id="insertUser" parameterType="com.earlyautumn.ruaiter.domain.User">
+        insert into
+        <include refid="BASE_TABLE"/>
+        (<include refid="BASE_SQL_COLUMN"/>)
+        values
+        (
+        null,
+        #{user.username},
+        #{user.name},
+        ${user.age},
+        ${user.balance}
+        )
+    </insert>
 
 </mapper>

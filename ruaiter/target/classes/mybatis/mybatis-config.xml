@@ -6,4 +6,11 @@
     <settings>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
+    <!--<mappers>-->
+    <!--&lt;!&ndash; 扫描路径下的mapper映射文件 &ndash;&gt;-->
+    <!--<mapper resource="classpath:com/earlyautumn/ruaiter/dao/**/mappers/"/>-->
+    <!--&lt;!&ndash; 扫描包下的接口文件 &ndash;&gt;-->
+    <!--<package name="classpath:com/earlyautumn/ruaiter/dao/"/>-->
+    <!--</mappers>-->
+
 </configuration>
