@@ -10,7 +10,7 @@ spring:
       prefix:
       suffix: .html
 
-#  #redis
+  #redis
 #  redis:
 #    host:
 #    port: 6379
