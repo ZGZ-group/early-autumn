@@ -9,9 +9,6 @@ spring:
     view:
       prefix:
       suffix: .html
-  thymeleaf:
-    cache: false
-    enabled: false
 
 #  #redis
 #  redis:

@@ -1,10 +1,7 @@
 package com.earlyautumn.ruaiter;
 
-import com.earlyautumn.ruaiter.dao.test.UserMapper;
-import com.earlyautumn.ruaiter.domain.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
@@ -18,18 +15,18 @@ public class BaseRuaiterTests {
     public void contextLoads() {
     }
 
-    private UserMapper userMapper;
+//    private UserMapper userMapper;
 
 
-    @Test
-    public void testDataSource() {
-        User userById = userMapper.getUserById(1L);
-        System.out.println(userById);
-    }
+//    @Test
+//    public void testDataSource() {
+//        User userById = userMapper.getUserById(1L);
+//        System.out.println(userById);
+//    }
 
-    @Autowired
-    public void setUserMapper(UserMapper userMapper) {
-        this.userMapper = userMapper;
-    }
+//    @Autowired
+//    public void setUserMapper(UserMapper userMapper) {
+//        this.userMapper = userMapper;
+//    }
 
 }
