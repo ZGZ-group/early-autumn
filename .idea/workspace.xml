@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a43563c-2f2b-47ce-8991-d58728ef7423" name="Default" comment="project">
-      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/dao/test/UserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/dao/test/mappers/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/domain/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/config/DataSourceTestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/config/DataSourceTestConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/dao/test/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/dao/test/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/dao/test/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/dao/test/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8a43563c-2f2b-47ce-8991-d58728ef7423" name="Default" comment="project" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/nodeone/target/" />
@@ -31,44 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ruaiter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuaiterInterceptor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/interceptor/RuaiterInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -374,6 +322,10 @@
         </option>
       </MavenSettings>
     </configuration>
+    <configuration name="RuaiterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ruaiter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.earlyautumn.ruaiter.RuaiterApplication" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -399,6 +351,7 @@
     <list>
       <item itemvalue="Maven.run" />
       <item itemvalue="Maven.complete" />
+      <item itemvalue="Spring Boot.RuaiterApplication" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -415,7 +368,7 @@
       <workItem from="1534174313506" duration="182000" />
       <workItem from="1534258445071" duration="6402000" />
       <workItem from="1534339863762" duration="4096000" />
-      <workItem from="1534347395953" duration="449000" />
+      <workItem from="1534347395953" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1534167396939</created>
@@ -439,11 +392,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16169000" />
+    <option name="totallyTimeSpent" value="16501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -462,7 +414,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3944134" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3944134" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26284796" />
@@ -754,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/dao/test/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -775,8 +720,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ruaiter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
+        <state relative-caret-position="435">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
