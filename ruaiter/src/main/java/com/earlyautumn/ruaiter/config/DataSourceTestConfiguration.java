@@ -22,15 +22,17 @@ import javax.sql.DataSource;
  * 示例数据源test配置文件
  */
 @Configuration
-@MapperScan(basePackages = {DataSourceTestConfig.BASE_PACKAGE}, sqlSessionFactoryRef = DataSourceTestConfig.SQL_SESSION_FACTORY)
+@MapperScan(
+        basePackages = {DataSourceTestConfiguration.BASE_PACKAGE},
+        sqlSessionFactoryRef = DataSourceTestConfiguration.SQL_SESSION_FACTORY)
 @EnableTransactionManagement
-public class DataSourceTestConfig {
+public class DataSourceTestConfiguration {
 
 
     static final String BASE_PACKAGE = "com.earlyautumn.ruaiter.dao.test";
     static final String SQL_SESSION_FACTORY = "sqlSessionFactoryTest";
 
-    private static final Logger logger = LoggerFactory.getLogger(DataSourceTestConfig.class);
+    private static final Logger logger = LoggerFactory.getLogger(DataSourceTestConfiguration.class);
     private static final String DATA_SOURCE_PROPERTY = "dataSourcePropertyTest";
     private static final String MYBATIS_CONFIG = "classpath:mybatis/mybatis-config.xml";
     private static final String MYBATIS_MAPPERS = "classpath:com/earlyautumn/ruaiter/dao/test/mappers/*.xml";

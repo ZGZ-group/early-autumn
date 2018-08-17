@@ -10,12 +10,12 @@ spring:
       prefix:
       suffix: .html
 
-  #redis
+#  redis
 #  redis:
-#    host:
+#    host: 192.168.94.129
 #    port: 6379
 #    database: 0
-#    timeout: 0ms
+#    timeout: 5000ms
 #    jedis:
 #      pool:
 #        max-active: 8

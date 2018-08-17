@@ -2,7 +2,9 @@ package com.earlyautumn.ruaiter;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
@@ -28,5 +30,16 @@ public class BaseRuaiterTests {
 //    public void setUserMapper(UserMapper userMapper) {
 //        this.userMapper = userMapper;
 //    }
+
+//    @Autowired
+//    private RedisTemplate<String, String> redisTemplate;
+//
+//    @Test
+//    public void testRedis() {
+//        redisTemplate.opsForValue().set("name", "zhangjialu");
+//        String name = redisTemplate.opsForValue().get("name");
+//        System.out.println(name);
+//    }
+
 
 }
