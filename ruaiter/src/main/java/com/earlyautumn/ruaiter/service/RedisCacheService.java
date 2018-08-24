@@ -21,14 +21,14 @@ public interface RedisCacheService {
     Set<String> keys(String pattern);
 
     /**
-     * key
+     * delete key
      *
      * @param key key
      */
     void delete(String key);
 
     /**
-     * String
+     * set key and value
      *
      * @param key   key
      * @param value value
@@ -36,7 +36,7 @@ public interface RedisCacheService {
     void set(String key, String value);
 
     /**
-     * String
+     * get value by key
      *
      * @param key key
      * @return value
@@ -44,7 +44,7 @@ public interface RedisCacheService {
     String get(String key);
 
     /**
-     * String
+     * set key,value with expire time
      *
      * @param key    key
      * @param second expire 过期时间
@@ -53,7 +53,7 @@ public interface RedisCacheService {
     void setWithExpire(String key, Integer second, String value);
 
     /**
-     * String
+     * update string from start index
      *
      * @param key   key
      * @param start 起始位置

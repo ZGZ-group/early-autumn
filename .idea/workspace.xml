@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a43563c-2f2b-47ce-8991-d58728ef7423" name="Default" comment="project">
-      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/controller/TestRedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/RedisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/test/java/com/earlyautumn/ruaiter/BaseRuaiterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/test/java/com/earlyautumn/ruaiter/BaseRuaiterTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/config/DataSourceTestConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/config/RedisConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/config/WebmvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/target/test-classes/com/earlyautumn/ruaiter/BaseRuaiterTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/target/test-classes/com/earlyautumn/ruaiter/BaseRuaiterTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruaiter/ruaiter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/ruaiter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -33,20 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="WebmvcConfiguration.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,6 +82,7 @@
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfig.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfig.java" />
+        <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java" />
       </list>
     </option>
   </component>
@@ -165,8 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,64 +147,12 @@
               <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
               <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="earlyautumn" type="462c0819:PsiDirectoryNode" />
-              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,6 +343,7 @@
       <workItem from="1534429898056" duration="2743000" />
       <workItem from="1534432730011" duration="1967000" />
       <workItem from="1534513215846" duration="3116000" />
+      <workItem from="1534599279920" duration="175000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1534167396939</created>
@@ -448,7 +370,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24327000" />
+    <option name="totallyTimeSpent" value="24502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -465,7 +387,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
@@ -474,7 +395,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.37877095" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27301928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2767666" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32976446" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -482,6 +403,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
@@ -600,13 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/RuaiterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -778,34 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/impl/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/controller/TestRedisController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -816,10 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="323">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -830,19 +717,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="-370">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/RuaiterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
           </folding>
         </state>
       </provider>
