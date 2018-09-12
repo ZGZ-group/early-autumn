@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a43563c-2f2b-47ce-8991-d58728ef7423" name="Default" comment="project">
-      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/CollectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/QuartzConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/job/TestQuartz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruaiter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ruaiter/ruaiter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/ruaiter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/resources/static/banner.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -21,7 +24,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="QuartzConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/QuartzConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestQuartz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/job/TestQuartz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,6 +65,7 @@
       <find>mysql</find>
       <find>my</find>
       <find>setExpire</find>
+      <find>quartz</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,17 +106,21 @@
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisService.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/impl/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/controller/TestRedisController.java" />
-        <option value="$PROJECT_DIR$/ruaiter/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfig.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfig.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java" />
-        <option value="$PROJECT_DIR$/ruaiter/pom.xml" />
         <option value="$PROJECT_DIR$/ruaiter/src/test/java/com/earlyautumn/ruaiter/sourcetest/GuavaTest.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/CollectionUtils.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/StringUtil.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/ruaiter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ruaiter/pom.xml" />
+        <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/quartz/BaseCronTrigger.java" />
+        <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/quartz/TestQuartz.java" />
+        <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/job/TestQuartz.java" />
+        <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/QuartzConfiguration.java" />
       </list>
     </option>
   </component>
@@ -131,8 +164,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="60" />
+    <option name="x" value="90" />
+    <option name="y" value="373" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -144,6 +177,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,7 +227,9 @@
               <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="earlyautumn" type="b2602c69:ProjectViewProjectNode" />
@@ -200,16 +237,16 @@
               <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ruaiter" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="job" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,19 +261,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\resources\mybatis" />
-      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter" />
-      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\java\com\earlyautumn\ruaiter\dao\test\mappers" />
-      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\java\com\earlyautumn\ruaiter\dao\test" />
-      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\java\com\earlyautumn\ruaiter\dao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\resources\mybatis" />
       <recent name="E:\programming\Git\own_repository" />
       <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\java\com\earlyautumn\ruaiter\dao\test" />
       <recent name="E:\programming\Git\own_repository\earlyautumn\sso\src\main\resources" />
       <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\resources\static" />
+      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\resources\mybatis" />
+      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter" />
+      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\java\com\earlyautumn\ruaiter\dao\test\mappers" />
+      <recent name="E:\programming\Git\own_repository\earlyautumn\ruaiter\src\main\java\com\earlyautumn\ruaiter\dao\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -405,6 +442,10 @@
       <workItem from="1535981688057" duration="1401000" />
       <workItem from="1536067978525" duration="699000" />
       <workItem from="1536071344998" duration="796000" />
+      <workItem from="1536419356981" duration="9000" />
+      <workItem from="1536475549847" duration="759000" />
+      <workItem from="1536589091546" duration="2277000" />
+      <workItem from="1536672785454" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1534167396939</created>
@@ -431,10 +472,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28703000" />
+    <option name="totallyTimeSpent" value="36327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -453,12 +495,13 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37877095" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.63240224" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29175588" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22698073" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32976446" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -467,7 +510,6 @@
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,73 +523,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.8.RELEASE/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="827" selection-start-line="827" selection-end-line="827" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/dao/test/UserMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/target/classes/com/earlyautumn/ruaiter/dao/test/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/controller/TestController.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.4.RELEASE/spring-boot-dependencies-2.0.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="1070" column="27" selection-start-line="1070" selection-start-column="25" selection-end-line="1070" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.4.RELEASE/spring-boot-starter-parent-2.0.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot/1.3.2/mybatis-spring-boot-1.3.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.2/mybatis-spring-boot-starter-1.3.2.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/dao/test/mappers/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -705,20 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -761,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/RedisConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -785,7 +739,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/banner.txt">
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/static/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="39" />
@@ -806,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.8/druid-1.1.8.jar!/com/alibaba/druid/pool/DruidDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -820,17 +767,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/RuaiterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.0.4.RELEASE/spring-boot-dependencies-2.0.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="152" column="55" lean-forward="true" selection-start-line="152" selection-start-column="55" selection-end-line="152" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.4.RELEASE/spring-boot-starter-parent-2.0.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/impl/triggers/CronTriggerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/CronTrigger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/5.0.8.RELEASE/spring-context-support-5.0.8.RELEASE.jar!/org/springframework/scheduling/quartz/CronTriggerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/ruaiter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/1.8.4/quartz-1.8.4.jar!/org/quartz/CronTrigger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/quartz/BaseCronTrigger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/job/TestQuartz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/QuartzConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -886,11 +947,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|ruaiter</last-edited>
+          <last-edited>ruaiter</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -2,17 +2,19 @@ server:
   servlet:
     context-path: /ruaiter
   port: 8080
+  inner:
+    host:
 
 spring:
   #springmvc
   mvc:
     view:
-      prefix:
+      prefix: /
       suffix: .html
 
 #  redis
 #  redis:
-#    host: 192.168.94.129
+#    host: ${server.inner.host}
 #    port: 6379
 #    database: 0
 #    timeout: 5000ms
