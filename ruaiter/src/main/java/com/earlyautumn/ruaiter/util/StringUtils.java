@@ -2,18 +2,24 @@ package com.earlyautumn.ruaiter.util;
 
 public class StringUtils {
 
-    private static final String EMPTY_STRING = "";
+    private static final String EMPTY = "";
     private static final String SPACE = " ";
 
+    /**
+     * 去除字符串内所有空格
+     */
     public static String trim(String str) {
         if (isEmpty(str)) {
-            return EMPTY_STRING;
+            return EMPTY;
         }
 
-        return str.replaceAll(SPACE, EMPTY_STRING);
+        return str.replaceAll(SPACE, EMPTY);
 
     }
 
+    /**
+     * 判断字符串是否为空
+     */
     public static boolean isEmpty(String str) {
         if (null == str || str.length() == 0) {
             return true;

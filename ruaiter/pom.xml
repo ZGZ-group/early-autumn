@@ -25,50 +25,59 @@
     </properties>
 
     <dependencies>
+
+        <!-- mongodb相关 -->
         <!--<dependency>-->
         <!--<groupId>org.springframework.boot</groupId>-->
         <!--<artifactId>spring-boot-starter-data-mongodb</artifactId>-->
         <!--</dependency>-->
+
+        <!-- redis相关 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>1.3.2</version>
         </dependency>
+
+        <!-- kafka消息队列相关 -->
         <!--<dependency>-->
         <!--<groupId>org.springframework.kafka</groupId>-->
         <!--<artifactId>spring-kafka</artifactId>-->
         <!--</dependency>-->
 
+        <!-- mysql驱动 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- springboot测试工具 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- 阿里巴巴数据源工具druid -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.8</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>26.0-jre</version>
-        </dependency>
-
+        <!-- 定时任务quartz相关 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-quartz</artifactId>
@@ -79,6 +88,20 @@
         <!--<artifactId>job</artifactId>-->
         <!--<version>1.8.4</version>-->
         <!--</dependency>-->
+
+        <!-- 谷歌json工具gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+
+        <!-- 谷歌工具guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>26.0-jre</version>
+        </dependency>
 
     </dependencies>
 
@@ -126,7 +149,7 @@
                     <include>**/*</include>
                 </includes>
                 <excludes>
-                    <exclude>/mybatis/generatorConfig.xml</exclude>
+                    <exclude>/mybatis/generator-config.xml</exclude>
                 </excludes>
             </resource>
             <!--打包java下的所有.xml配置文件-->
