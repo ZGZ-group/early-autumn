@@ -1,4 +1,4 @@
-package com.earlyautumn.ruaiter.domain;
+package com.earlyautumn.ruaiter.user.domain;
 
 import java.math.BigDecimal;
 

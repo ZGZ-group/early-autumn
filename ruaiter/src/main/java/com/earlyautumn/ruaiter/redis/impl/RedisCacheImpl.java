@@ -1,6 +1,6 @@
-package com.earlyautumn.ruaiter.service.impl;
+package com.earlyautumn.ruaiter.redis.impl;
 
-import com.earlyautumn.ruaiter.service.RedisCacheService;
+import com.earlyautumn.ruaiter.redis.RedisCache;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 @Service
-public class RedisServiceImpl implements RedisCacheService {
+public class RedisCacheImpl implements RedisCache {
 
     private RedisTemplate<String, String> redisTemplate;
 

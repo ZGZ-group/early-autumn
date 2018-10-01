@@ -1,7 +1,7 @@
-package com.earlyautumn.ruaiter.dao.test;
+package com.earlyautumn.ruaiter.user.dao.test;
 
-import com.earlyautumn.ruaiter.domain.User;
-import com.earlyautumn.ruaiter.domain.UserExample;
+import com.earlyautumn.ruaiter.user.domain.User;
+import com.earlyautumn.ruaiter.user.domain.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

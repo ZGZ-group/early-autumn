@@ -1,9 +1,9 @@
-package com.earlyautumn.ruaiter.service;
+package com.earlyautumn.ruaiter.redis;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-public interface RedisCacheService {
+public interface RedisCache {
 
     /**
      * set expire time for key

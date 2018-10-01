@@ -29,7 +29,7 @@ import javax.sql.DataSource;
 public class DataSourceTestConfiguration {
 
 
-    static final String BASE_PACKAGE = "com.earlyautumn.ruaiter.dao.test";
+    static final String BASE_PACKAGE = "com.earlyautumn.ruaiter.user.dao.test";
     static final String SQL_SESSION_FACTORY = "sqlSessionFactoryTest";
 
     private static final Logger logger = LoggerFactory.getLogger(DataSourceTestConfiguration.class);

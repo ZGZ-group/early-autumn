@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.earlyautumn.ruaiter.dao.test.UserMapper" >
-  <resultMap id="BaseResultMap" type="com.earlyautumn.ruaiter.domain.User" >
+<mapper namespace="com.earlyautumn.ruaiter.user.dao.test.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.earlyautumn.ruaiter.user.domain.User" >
     <id column="id" property="id" jdbcType="BIGINT" />
     <result column="username" property="username" jdbcType="VARCHAR" />
     <result column="name" property="name" jdbcType="VARCHAR" />
@@ -69,7 +69,7 @@
   <sql id="Base_Column_List" >
     id, username, name, age, balance
   </sql>
-  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.earlyautumn.ruaiter.domain.UserExample" >
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.earlyautumn.ruaiter.user.domain.UserExample" >
     select
     <if test="distinct" >
       distinct
@@ -93,19 +93,19 @@
     delete from user
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <delete id="deleteByExample" parameterType="com.earlyautumn.ruaiter.domain.UserExample" >
+  <delete id="deleteByExample" parameterType="com.earlyautumn.ruaiter.user.domain.UserExample" >
     delete from user
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.earlyautumn.ruaiter.domain.User" >
+  <insert id="insert" parameterType="com.earlyautumn.ruaiter.user.domain.User" >
     insert into user (id, username, name, 
       age, balance)
     values (#{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, 
       #{age,jdbcType=INTEGER}, #{balance,jdbcType=DECIMAL})
   </insert>
-  <insert id="insertSelective" parameterType="com.earlyautumn.ruaiter.domain.User" >
+  <insert id="insertSelective" parameterType="com.earlyautumn.ruaiter.user.domain.User" >
     insert into user
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="id != null" >
@@ -142,7 +142,7 @@
       </if>
     </trim>
   </insert>
-  <select id="countByExample" parameterType="com.earlyautumn.ruaiter.domain.UserExample" resultType="java.lang.Integer" >
+  <select id="countByExample" parameterType="com.earlyautumn.ruaiter.user.domain.UserExample" resultType="java.lang.Integer" >
     select count(*) from user
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
@@ -182,7 +182,7 @@
       <include refid="Update_By_Example_Where_Clause" />
     </if>
   </update>
-  <update id="updateByPrimaryKeySelective" parameterType="com.earlyautumn.ruaiter.domain.User" >
+  <update id="updateByPrimaryKeySelective" parameterType="com.earlyautumn.ruaiter.user.domain.User" >
     update user
     <set >
       <if test="username != null" >
@@ -200,7 +200,7 @@
     </set>
     where id = #{id,jdbcType=BIGINT}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.earlyautumn.ruaiter.domain.User" >
+  <update id="updateByPrimaryKey" parameterType="com.earlyautumn.ruaiter.user.domain.User" >
     update user
     set username = #{username,jdbcType=VARCHAR},
       name = #{name,jdbcType=VARCHAR},

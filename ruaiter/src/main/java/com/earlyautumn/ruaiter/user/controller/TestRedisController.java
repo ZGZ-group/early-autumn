@@ -1,6 +1,6 @@
-package com.earlyautumn.ruaiter.controller;
+package com.earlyautumn.ruaiter.user.controller;
 
-import com.earlyautumn.ruaiter.service.RedisCacheService;
+import com.earlyautumn.ruaiter.redis.RedisCache;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestRedisController {
 
-    private RedisCacheService redisCacheService;
+    private RedisCache redisCacheService;
 
     @GetMapping("get-name")
     public String getName() {
@@ -19,7 +19,7 @@ public class TestRedisController {
     }
 
     @Autowired
-    public void setRedisService(RedisCacheService redisCacheService) {
+    public void setRedisService(RedisCache redisCacheService) {
         this.redisCacheService = redisCacheService;
     }
 
