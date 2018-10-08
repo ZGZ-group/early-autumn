@@ -1,0 +1,26 @@
+server:
+  servlet:
+    context-path: /ruaiter
+  port: 8080
+  inner:
+    host:
+
+spring:
+  #springmvc
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+
+#  redis
+#  redis:
+#    host: ${server.inner.host}
+#    port: 6379
+#    database: 0
+#    timeout: 5000ms
+#    jedis:
+#      pool:
+#        max-active: 8
+#        max-idle: 8
+#        max-wait: -1ms
+#        min-idle: 0
