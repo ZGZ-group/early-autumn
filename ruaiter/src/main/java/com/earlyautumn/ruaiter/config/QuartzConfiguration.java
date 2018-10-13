@@ -5,7 +5,7 @@ import org.quartz.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class QuartzConfiguration {
 
     private static final String JOB_NAME = "testQuartz";
