@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a43563c-2f2b-47ce-8991-d58728ef7423" name="Default" comment="project">
-      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/bean/BaseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/interceptor/LoginInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ruaiter/ruaiter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/ruaiter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/DataSourceTestConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/controller/TestRedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/user/controller/TestRedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/dao/test/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/user/dao/test/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/dao/test/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/user/dao/test/mappers/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/user/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/domain/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/user/domain/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/interceptor/RuaiterInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/RedisCacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/redis/RedisCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/redis/impl/RedisCacheImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/JsonUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/generator-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -33,7 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ruaiter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="121" column="54" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,7 +95,6 @@
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/job/TestQuartz.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/QuartzConfiguration.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/StringUtils.java" />
-        <option value="$PROJECT_DIR$/ruaiter/pom.xml" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/util/CollectionUtils.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/interceptor/RuaiterInterceptor.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/resources/mybatis/mybatis-config.xml" />
@@ -109,6 +104,7 @@
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/config/WebmvcConfiguration.java" />
         <option value="$PROJECT_DIR$/ruaiter/src/main/java/com/earlyautumn/ruaiter/bean/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/ruaiter/pom.xml" />
       </list>
     </option>
   </component>
@@ -168,6 +164,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,7 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,7 +243,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -445,6 +441,7 @@
       <workItem from="1538325313275" duration="1749000" />
       <workItem from="1538327244245" duration="695000" />
       <workItem from="1538359243202" duration="269000" />
+      <workItem from="1538446112383" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary="project">
       <created>1534167396939</created>
@@ -471,10 +468,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42888000" />
+    <option name="totallyTimeSpent" value="45413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -496,7 +494,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.3821229" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32960895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25963598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26284796" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.32976446" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -784,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruaiter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2271">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -862,6 +853,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruaiter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="121" column="54" selection-start-line="121" selection-start-column="54" selection-end-line="121" selection-end-column="54" />
         </state>
       </provider>
     </entry>
