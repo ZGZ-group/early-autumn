@@ -20,15 +20,15 @@ import javax.sql.DataSource;
 
 @Configuration
 @MapperScan(
-        basePackages = {DataSourceEarlyAutumnConfiguration.BASE_PACKAGE},
-        sqlSessionFactoryRef = DataSourceEarlyAutumnConfiguration.SQL_SESSION_FACTORY)
+        basePackages = {DataSourceEarlyAutumnConfiger.BASE_PACKAGE},
+        sqlSessionFactoryRef = DataSourceEarlyAutumnConfiger.SQL_SESSION_FACTORY)
 @EnableTransactionManagement
-public class DataSourceEarlyAutumnConfiguration {
+public class DataSourceEarlyAutumnConfiger {
 
     static final String BASE_PACKAGE = "com.earlyautumn.ruaiter.user.dao.earlyautumn";
     static final String SQL_SESSION_FACTORY = "sqlSessionFactoryEarlyAutumn";
 
-    private static final Logger logger = LoggerFactory.getLogger(DataSourceEarlyAutumnConfiguration.class);
+    private static final Logger logger = LoggerFactory.getLogger(DataSourceEarlyAutumnConfiger.class);
     private static final String DATA_SOURCE_PROPERTY = "dataSourcePropertyEarlyAutumn";
     private static final String MYBATIS_CONFIG = "classpath:mybatis/mybatis-config.xml";
     private static final String MYBATIS_MAPPERS = "classpath:com/earlyautumn/ruaiter/user/dao/earlyautumn/mappers/*.xml";

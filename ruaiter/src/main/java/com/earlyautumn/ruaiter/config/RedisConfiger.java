@@ -20,7 +20,7 @@ import java.time.Duration;
 
 //@Configuration
 //@EnableCaching
-public class RedisConfiguration {
+public class RedisConfiger {
 
     /**
      * 生成key的策略
