@@ -2,8 +2,8 @@ package com.earlyautumn.ruaiter.util;
 
 public class StringUtils {
 
-    private static final String EMPTY = "";
-    private static final String SPACE = " ";
+    public static final String EMPTY = "";
+    public static final String SPACE = " ";
 
     /**
      * 去除字符串内所有空格
