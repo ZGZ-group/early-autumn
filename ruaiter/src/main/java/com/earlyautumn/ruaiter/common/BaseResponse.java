@@ -8,14 +8,19 @@ import java.util.Map;
  */
 public class BaseResponse {
 
-    private static final Integer ERROR_STATUS_CODE = 0;//处理失败
-    private static final Integer SUCCESS_STATUS_CODE = 1;//处理成功
+    //处理失败
+    private static final Integer ERROR_STATUS_CODE = 0;
+    //处理成功
+    private static final Integer SUCCESS_STATUS_CODE = 1;
 
 
-    private Integer statusCode;//状态码
+    //状态码
+    private Integer statusCode;
     //    private Integer messageCode;//信息码
-    private String message;//信息
-    private Map<String, Object> data = new HashMap<>();//数据
+    //信息
+    private String message;
+    //数据
+    private Map<String, Object> data = new HashMap<>();
 
     public BaseResponse() {
 

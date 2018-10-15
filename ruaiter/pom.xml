@@ -108,6 +108,12 @@
             <artifactId>pagehelper</artifactId>
             <version>4.1.4</version>
         </dependency>
+        <!--JWT-->
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>3.3.0</version>
+        </dependency>
 
     </dependencies>
 

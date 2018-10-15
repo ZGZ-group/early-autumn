@@ -18,25 +18,21 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 
-/**
- * 示例数据源test配置文件
- */
 @Configuration
 @MapperScan(
-        basePackages = {DataSourceTestConfiguration.BASE_PACKAGE},
-        sqlSessionFactoryRef = DataSourceTestConfiguration.SQL_SESSION_FACTORY)
+        basePackages = {DataSourceEarlyAutumnConfiger.BASE_PACKAGE},
+        sqlSessionFactoryRef = DataSourceEarlyAutumnConfiger.SQL_SESSION_FACTORY)
 @EnableTransactionManagement
-public class DataSourceTestConfiguration {
+public class DataSourceEarlyAutumnConfiger {
 
+    static final String BASE_PACKAGE = "com.earlyautumn.ruaiter.user.dao.earlyautumn";
+    static final String SQL_SESSION_FACTORY = "sqlSessionFactoryEarlyAutumn";
 
-    static final String BASE_PACKAGE = "com.earlyautumn.ruaiter.user.dao.test";
-    static final String SQL_SESSION_FACTORY = "sqlSessionFactoryTest";
-
-    private static final Logger logger = LoggerFactory.getLogger(DataSourceTestConfiguration.class);
-    private static final String DATA_SOURCE_PROPERTY = "dataSourcePropertyTest";
+    private static final Logger logger = LoggerFactory.getLogger(DataSourceEarlyAutumnConfiger.class);
+    private static final String DATA_SOURCE_PROPERTY = "dataSourcePropertyEarlyAutumn";
     private static final String MYBATIS_CONFIG = "classpath:mybatis/mybatis-config.xml";
-    private static final String MYBATIS_MAPPERS = "classpath:com/earlyautumn/ruaiter/dao/test/mappers/*.xml";
-    private static final String TX_MANAGER = "txManagerTest";
+    private static final String MYBATIS_MAPPERS = "classpath:com/earlyautumn/ruaiter/user/dao/earlyautumn/mappers/*.xml";
+    private static final String TX_MANAGER = "txManagerEarlyAutumn";
 
     @Primary
     @Bean(name = DATA_SOURCE_PROPERTY)
