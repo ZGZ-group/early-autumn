@@ -8,7 +8,7 @@ public class StringUtils {
     /**
      * 去除字符串内所有空格
      */
-    public static String trim(String str) {
+    public static String trimAll(String str) {
         if (isEmpty(str)) {
             return EMPTY;
         }
