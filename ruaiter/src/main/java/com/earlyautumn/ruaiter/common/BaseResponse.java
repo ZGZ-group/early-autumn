@@ -30,6 +30,11 @@ public class BaseResponse {
         this.statusCode = statusCode;
     }
 
+    public BaseResponse(Integer statusCode, String message) {
+        this.statusCode = statusCode;
+        this.message = message;
+    }
+
     public static BaseResponse newErrorResponse() {
         return new BaseResponse(ERROR_STATUS_CODE);
     }
@@ -55,22 +60,18 @@ public class BaseResponse {
         return statusCode;
     }
 
-    public void setStatusCode(Integer statusCode) {
-        this.statusCode = statusCode;
-    }
+//    public void setStatusCode(Integer statusCode) {
+//        this.statusCode = statusCode;
+//    }
 
-    public BaseResponse(Integer statusCode, String message) {
-        this.statusCode = statusCode;
-        this.message = message;
-    }
 
     public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
+//    public void setMessage(String message) {
+//        this.message = message;
+//    }
 
     public Map<String, Object> getData() {
         return data;

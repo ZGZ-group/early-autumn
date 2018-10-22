@@ -19,11 +19,6 @@ public class LoginInterceptor implements HandlerInterceptor {
         String eaToken = request.getParameter(JwtUtil.TOKEN_KEY);
         String username = JwtUtil.getUsername(eaToken);
         //TODO JWT secret选择
-        boolean loginCheck = JwtUtil.verify(eaToken, username, "");
-        if (!loginCheck) {
-            return false;
-        }
-
-        return true;
+        return JwtUtil.verify(eaToken, username, "");
     }
 }
