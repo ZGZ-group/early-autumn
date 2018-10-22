@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 //@Configuration
-public class QuartzConfiger {
+public class QuartzConfigurer {
 
     private static final String JOB_NAME = "testQuartz";
 

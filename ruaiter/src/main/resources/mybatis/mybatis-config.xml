@@ -3,7 +3,8 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    
+
+    <!--驼峰命名-->
     <settings>
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
@@ -14,6 +15,7 @@
         <!--jdbcType="VARCHAR"/>-->
     </typeHandlers>
 
+    <!--sql拦截配置-->
     <plugins>
         <plugin interceptor="com.github.pagehelper.PageHelper">
             <!-- 设置数据库类型 Oracle,Mysql,MariaDB,SQLite,Hsqldb,PostgreSQL六种数据库-->

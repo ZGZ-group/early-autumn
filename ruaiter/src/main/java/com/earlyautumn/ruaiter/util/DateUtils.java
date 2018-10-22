@@ -1,14 +1,56 @@
 package com.earlyautumn.ruaiter.util;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 public class DateUtils {
 
-    public static final String DEFAULT_DATE_FORMATTER = "yyyy-MM-dd";
-    public static final String DEFAULT_TIME_FORMATTER = "HH:mm:ss";
-    public static final String DEFAULT_DATETIME_FORMATTER = "yyyy-MM-dd HH:mm:ss";
+    public static final Date EMPTY = null;
+
+    public static final String DEFAULT_DATE_PATTERN = "yyyy-MM-dd";
+    public static final String DEFAULT_TIME_PATTERN = "HH:mm:ss";
+    public static final String DEFAULT_DATETIME_PATTERN = "yyyy-MM-dd HH:mm";
+
+    public static final DateTimeFormatter DEFAULT_DATE_FORMATTER = DateTimeFormatter.ofPattern(DEFAULT_DATE_PATTERN);
+    public static final DateTimeFormatter DEFAULT_DATETIME_FORMATTER = DateTimeFormatter.ofPattern(DEFAULT_DATETIME_PATTERN);
+
+    public static Date parseDefaultDate(String date) {
+
+        if (StringUtils.isEmpty(date)) {
+            return EMPTY;
+        }
+        return localDateToDate(LocalDate.parse(date, DEFAULT_DATE_FORMATTER));
+    }
+
+    public static Date parseDefaultDateTime(String date) {
+
+        if (StringUtils.isEmpty(date)) {
+            return EMPTY;
+        }
+        return localDateToDate(LocalDate.parse(date, DEFAULT_DATETIME_FORMATTER));
+    }
+
+    public static Date parseDateTime(String date, String pattern) {
+
+        if (StringUtils.isEmpty(date) || StringUtils.isEmpty(pattern)) {
+            return EMPTY;
+        }
+
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(pattern);
+        return localDateTimeToDate(LocalDateTime.parse(date, dateTimeFormatter));
+    }
+
+    public static Date parseDate(String date, String pattern) {
+
+        if (StringUtils.isEmpty(date) || StringUtils.isEmpty(pattern)) {
+            return EMPTY;
+        }
+
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(pattern);
+        return localDateToDate(LocalDate.parse(date, dateTimeFormatter));
+    }
 
     /**
      * 将Date转换为LocalDate
