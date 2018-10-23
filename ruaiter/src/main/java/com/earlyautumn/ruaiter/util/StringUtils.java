@@ -18,7 +18,7 @@ public class StringUtils {
     }
 
     /**
-     * 1判断字符串是否为空
+     * 2判断字符串是否为空
      */
     public static boolean isEmpty(String str) {
         if (null == str || str.length() == 0) {
