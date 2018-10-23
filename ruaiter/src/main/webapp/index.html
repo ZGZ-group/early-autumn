@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script type="text/javascript" src="WEB-INF/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.ajax({
+                url: "",
+                type: "json",
+                data: {},
+                success: function () {
+
+                }
+            })
+        });
+    </script>
 </head>
 <body>
-    <form action="" method="post">
-        <input name="date" type="text" value="2018-10-22">
-        <input name="test" type="text" value="2018-1022">
-        <input type="submit" value="提交">
-    </form>
+<form action="" method="post">
+    <input name="date" type="text" value="2018-10-22">
+    <input name="test" type="text" value="2018-1022">
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
