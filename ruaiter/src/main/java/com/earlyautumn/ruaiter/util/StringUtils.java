@@ -36,5 +36,18 @@ public class StringUtils {
         return true;
 
     }
+    /**
+     * 获取本机ip地址
+     * @return
+     */
+    public static String getLocalhostIp(){
+        String ip = "";
+        try {
+            ip = InetAddress.getLocalHost().getHostAddress();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return ip;
+    }
 
 }
