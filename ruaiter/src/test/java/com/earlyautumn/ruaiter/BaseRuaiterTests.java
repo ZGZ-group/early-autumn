@@ -1,45 +1,35 @@
 package com.earlyautumn.ruaiter;
 
-import org.junit.Test;
+import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.web.WebAppConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@WebAppConfiguration
-@SpringBootTest(classes = BaseRuaiterTests.class, webEnvironment = SpringBootTest.WebEnvironment.MOCK)
-public class BaseRuaiterTests {
+/**
+ * Spring 测试基类，新建测试类继承该抽象类
+ */
+@RunWith(SpringRunner.class)
+@SpringBootTest
+//@WebAppConfiguration
+//@SpringBootTest(classes = BaseRuaiterTests.class, webEnvironment = SpringBootTest.WebEnvironment.NONE)
+public abstract class BaseRuaiterTests {
 
-    @Test
-    public void contextLoads() {
+    protected MockMvc mockMvc;
+
+    private WebApplicationContext webApplicationContext;
+
+    @Before
+    public void init() {
+        this.mockMvc = MockMvcBuilders.webAppContextSetup(this.webApplicationContext).build();
     }
 
-//    private UserMapper userMapper;
-
-
-//    @Test
-//    public void testDataSource() {
-//        User userById = userMapper.getUserById(1L);
-//        System.out.println(userById);
-//    }
-
-//    @Autowired
-//    public void setUserMapper(UserMapper userMapper) {
-//        this.userMapper = userMapper;
-//    }
-
-//    @Autowired
-//    private RedisTemplate<String, String> redisTemplate;
-//
-//    @Test
-//    public void testRedis() {
-//        redisTemplate.opsForValue().set("name", "zhangjialu");
-//        String name = redisTemplate.opsForValue().get("name");
-//        System.out.println(name);
-//    }
-
+    @Autowired
+    public void setWebApplicationContext(WebApplicationContext webApplicationContext) {
+        this.webApplicationContext = webApplicationContext;
+    }
 
 }
