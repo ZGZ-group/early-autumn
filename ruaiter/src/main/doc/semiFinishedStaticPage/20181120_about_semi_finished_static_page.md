@@ -1,4 +1,4 @@
-#semiFinishedStaticPage文件夹 
+# semiFinishedStaticPage文件夹 
 >一个用来存放已编写未填充动态数据静态页面的文件夹 
 ### 计划页面
 - [ ] 主页 
