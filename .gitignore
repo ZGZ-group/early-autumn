@@ -23,3 +23,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### !!! WARN：no database config file ###
+### need delete the config file and its history related commit ###
