@@ -26,11 +26,11 @@ public class BaseResponse {
 
     }
 
-    public BaseResponse(Integer statusCode) {
+    private BaseResponse(Integer statusCode) {
         this.statusCode = statusCode;
     }
 
-    public BaseResponse(Integer statusCode, String message) {
+    private BaseResponse(Integer statusCode, String message) {
         this.statusCode = statusCode;
         this.message = message;
     }
